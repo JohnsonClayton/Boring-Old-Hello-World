@@ -4,7 +4,7 @@ main:
 	pushq	%rbp
 	movq	%rsp, %rbp
 	leaq	.LC0(%rip), %rdi
-	call	puts@PLT
+	call	printf@PLT
 	xor	%eax, %eax
 	popq	%rbp
 	ret
