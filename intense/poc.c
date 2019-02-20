@@ -7,9 +7,14 @@ int main(void) {
 	char str[50] = "\000";
 	char new_str[50] = "\000";
 	int counter = 0;
+	int warn_chars = 0;
+	system("clear");
 	while(1) {
+		printf("%s\n\n\n\n", new_str);
+		if(warn_chars) {
+			printf("You're adding a few too many characters there, buddy...\n");
+		}
 		printf("%s", new_str);
-		printf("\n\n%s", new_str);
 
 		strcpy(str, new_str);
 
@@ -26,11 +31,13 @@ int main(void) {
 				new_str[counter-1] = '\000';
 				--counter;
 			}
-		} else {
+		} else if(counter < 50){
 			++counter;
 
 			strcpy(new_str, str);
 			strcat(new_str, c);
+		} else {
+			warn_chars = 1;
 		}
 
 	}
