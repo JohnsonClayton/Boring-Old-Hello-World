@@ -1,3 +1,0 @@
-#!/bin/bash
-
-./h && ./e && python3 l.py && java l && php o.php && rhino space.js && perl w.pl && ./o && ./r && ruby l.rb && awk "BEGIN { print \"d \" }" 
