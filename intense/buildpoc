@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if gcc poc.c -o poc ; then
+	#read -p "It compiled, want to run?
+	#" choice
+	#if [[ "$choice" == "Y" || "$choice" == "y" ]] ; then
+	#	./poc
+	#fi
+	stty raw
+	./poc
+	stty sane
+fi
+#strace -v stty raw >&log; stty sane; grep TCSETSW log
