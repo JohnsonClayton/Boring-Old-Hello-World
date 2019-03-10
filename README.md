@@ -12,6 +12,10 @@ they get a linker error and phreak out. This helps them chill a little).
  - I've created a painfully-long HW program that displays each character from the stdout from 11 languages and then managed in bash (thus getting us to 12).
  - I also intend to build a "daisy-chain" sort of program in which each program calls the next, however this one is on the backburner because I don't care as much about it.
  
+### Colors
+ - This version of Hello, World! will output with select color schemes chosen by the user. This was motivated by Karl Castleton's assignment to print `Hello, World!` with colors behind it, which is the default setting for the program.
+ - More colors can be added to the program, however I am only mortal and as such have both limited time and focus. Feel free to go overboard with it!
+ 
 ### Intense
  - This program is stilll in progress, however the goal is to have the user type in their message (for demonstrations, HW will be used) and the program will display the typed text in ASCII Art in real time.
  
