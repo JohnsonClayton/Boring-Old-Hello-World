@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if gcc intense.c -o intense ; then
+	read -p "Compilation successful! Want to execute?
+==>" choice
+	if [[ "$choice" == "Y" || "$choice" == "y" ]] ; then
+		./intense
+	fi
+fi
