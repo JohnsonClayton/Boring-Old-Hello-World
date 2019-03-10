@@ -18,8 +18,12 @@ int main(void) {
 
 		strcpy(str, new_str);
 
+		system("stty raw");
 		c[0] = getchar();
+		system("stty sane");
 		system("clear");
+
+		//printf("num is %d\n", c[0]);
 
 		if((int)c[0] == 13 || (int)c[0] == 3) {
 			break;

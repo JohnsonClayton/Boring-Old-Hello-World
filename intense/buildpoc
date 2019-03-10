@@ -6,8 +6,8 @@ if gcc poc.c -o poc ; then
 	#if [[ "$choice" == "Y" || "$choice" == "y" ]] ; then
 	#	./poc
 	#fi
-	stty raw
+	#stty raw
 	./poc
-	stty sane
+	#stty sane
 fi
 #strace -v stty raw >&log; stty sane; grep TCSETSW log
