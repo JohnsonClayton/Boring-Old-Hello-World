@@ -5,6 +5,9 @@ As a tutor, I always suggest that CS students, regardless of what they are worki
 they get a linker error and phreak out. This helps them chill a little).
 Additionally, this is a good platform to introduce multiple ideas to newer students such as Assembly, Bash Scripting (and how lots of coding languages are pretty similar when you get down to the brass `syn`tax), User-Interface (por vía `colors`), and "Being Absurd" (seen in `intense`). 
 
+### Basic with Bash
+ - Since CS students at Colorado Mesa University typically learn C++ first, I've added some basic "Hello, world!" programs in C/C++. To take this further, however, I compile and output them with a bash script to demonstrate how development of larger programs can easily be sped up with scripts. My example is straightforward, simply compiling the C/C++ files and, upon success, running them if the user desires.
+ - I use bash scripts like these all the time in the projects I work on and encourage early CS students to do so as well since it expands their breadth of knowledge and helps them be more comfortable with the terminal environment. This section may be helpful in introducing students to ```make``` files as well...
 
 ### ASM
  - I included a minimized HW program in Assembly. I got it down to 9 lines, but I challenge you to do better __without any macros!__
