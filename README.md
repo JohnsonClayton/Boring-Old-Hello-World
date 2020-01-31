@@ -21,7 +21,7 @@ Additionally, this is a good platform to introduce multiple ideas to newer stude
  - More colors can be added to the program, however I am only mortal and as such have both limited time and focus. Feel free to go overboard with it!
  
 ### Intense
- - This program is still in progress, however the goal is to have the user type in their message (for demonstrations, HW will be used) and the program will display the ASCII Art of the text in real time.
+ - This version of Hello, world! actually goes through quite a bit of effort just to say "hello!" By running this program, we can hopefully demonstrate some new techniques to newer students!
  
 ### Additional Work
  - It is still in progress, so if you don't want spoilers, go away! Otherwise, please let me know what you think!
