@@ -13,7 +13,7 @@ Additionally, this is a good platform to introduce multiple ideas to newer stude
  - I included a minimized HW program in Assembly. I got it down to 9 lines, but I challenge you to do better __without any macros!__
  
 ### Langs
- - I've created a painfully-long HW program that displays each character from the stdout from 11 languages and then managed in bash (thus getting us to 12).
+ - I've created a painfully-long HW program that displays each character from the stdout from 10 languages and then managed in bash (thus getting us to 11).
  - I also intend to build a "daisy-chain" sort of program in which each program calls the next, however this one is on the backburner.
  
 ### Colors
